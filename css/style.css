@@ -42,6 +42,11 @@ img{
     margin-right: 10px;
 }
 
+a{
+    color: #49b4e6;
+    text-decoration: none;
+}
+
 .info{
     line-height: 31px;
     padding-top: 10px;
