@@ -6,6 +6,11 @@
     font-family: 'Kanit', sans-serif;
 }
 
+:root{
+    --title: #E53170;
+    --links: #49b4e6;
+}
+
 html{
     font-size: 20px;
 }
@@ -17,7 +22,7 @@ html{
 
 h1{
     font-size: 2.5rem;
-    color: #E53170;
+    color: var(--title)
 }
 
 h3{
@@ -43,18 +48,13 @@ img{
 }
 
 a{
-    color: #49b4e6;
+    color: var(--links);
     text-decoration: none;
 }
 
 .info{
     line-height: 31px;
     padding-top: 10px;
-}
-
-address{
-    color: #49b4e6;
-    font-style: normal;
 }
 
 /* Utilities */
